@@ -1,0 +1,10 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligner en haut */
+  gap: 20px; /* Espacement entre les composants */
+  padding: 20px; /* Espacement autour de la rangée */
+}
+body{
+  background-color: rgba(0, 0, 0, 0.993);
+}
