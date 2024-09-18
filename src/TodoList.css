@@ -1,0 +1,75 @@
+.todo-list {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .todo-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .todo-list input {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .todo-list button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #5f00f7;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .todo-list button:hover {
+    background-color: #a160f5e1;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .task-buttons button {
+    background-color: #9e36f4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .task-buttons button:hover {
+    background-color: #a42fd328;
+  }
+  .todo-list {
+    max-width: 400px; /* Largeur maximale */
+    margin: 0; /* Supprimer la marge pour un meilleur alignement */
+    padding: 20px;
+    background-color: #2e2c2c85;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(104, 14, 207, 0.534);
+    flex: 1; /* Pour que ça prenne une part égale de l'espace */
+  }
+  

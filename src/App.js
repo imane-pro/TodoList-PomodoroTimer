@@ -1,13 +1,15 @@
 import React from 'react';
 
-
-import TicTacToe from './TicTacToe'
+import './App.css';
+import PomodoroTimer from './PomodoroTimer';
+import TodoList from './TodoList';
 
 
 const App = () => {
   return (
     <div className="app-container">
-    <TicTacToe/>
+    <PomodoroTimer/>
+    <TodoList/>
     </div>
   );
 };

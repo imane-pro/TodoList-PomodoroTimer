@@ -1,0 +1,53 @@
+.pomodoro-timer {
+  text-align: center;
+  background-color: #d31818;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.timer-text {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.timer-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.start-button,
+.stop-button,
+.reset-button {
+  background-color: #5f00f7;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover,
+.stop-button:hover,
+.reset-button:hover {
+  background-color: #b476e7cc;
+}
+.pomodoro-timer {
+  text-align: center;
+  background-color: #2e2c2c85;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(104, 14, 207, 0.534);
+  margin: 0; /* Supprimer la marge pour un meilleur alignement */
+  max-width: 300px; /* Largeur maximale */
+  flex: 1; /* Pour que ça prenne une part égale de l'espace */
+}
